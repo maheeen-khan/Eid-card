@@ -1,0 +1,14 @@
+.head{
+    color: goldenrod;
+}
+.name{
+    color: rgb(203, 11, 75);
+    text-transform: uppercase;
+}
+.wish{
+    font-weight: bold;
+    color: goldenrod;
+}
+.bottom{
+    font-style: oblique;
+}
