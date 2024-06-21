@@ -15,4 +15,5 @@ for(var i = 0; i < n.length; i++){
         userNameCapitalize += n[i];
     }
 }
-document.write("<div class='card text-center mx-auto mt-5 animate__animated animate__bounceInUp' style='width: 18rem;'>" + "<img src='image/eid.jpg' class='card-img-top' alt='Eid image'>" + "<div class='card-body'>" + "<h2 class='head'>" + "EID MUBARAK" + "</h2>" + "<p class='card-text'>" + userNameCapitalize + "<br>" + " from " + "<span class='name'>" + "maheen khan " + "</span>" + "and her family." + "<hr> <span class='bottom'>" + "May the guidance and blessings of Allah be with you and your family. " + "<span class='wish'>" + "Eid Mubarak!" + "</span></span> 🕌❤️" + "</p>" + "</div>" +  "</div>");
+
+document.write("<div class='card text-center mx-auto mt-5 animate__animated animate__bounceInUp' style='width: 18rem;'>" + "<img src='image/eid.jpg' class='card-img-top' alt='Eid image'>" + "<div class='card-body'>" + "<h2 class='head'>" + "EID MUBARAK" + "</h2>" + "<p class='card-text'>" + "<p class = 'fst-italic'>" + userNameCapitalize + "</p>" + " from " + "<span class='name'>" + "maheen khan " + "</span>" + "and her family." + "<hr> <span class='bottom'>" + "May the guidance and blessings of Allah be with you and your family. " + "<span class='wish'>" + "Eid Mubarak!" + "</span></span> 🕌❤️" + "</p>" + "</div>" +  "</div>");
